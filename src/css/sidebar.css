@@ -1,0 +1,120 @@
+.sidebar{
+    margin-top: 10px;
+}
+.sidebar__button img{
+    cursor: pointer;
+
+}
+.sidebar__button{
+    cursor: pointer;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    margin-right: 160px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin: 0em;
+    padding: 1px 10px;
+    border-width: 2px;
+    border-style: outset;
+    border-color:transparent;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.sidebar__options{
+    margin-top: 10px;
+}
+.sidebar__option
+{  
+    display: flex;
+      margin-top: 10px;
+      padding: 8px 10px;
+   border-width: 2px;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+}
+.sidebar__option:hover
+{  
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.sidebar__button span{
+    display: flex;
+    font-size: 15px;
+}
+.sidebar__option span
+{  
+   margin-left: 15px;
+   font-size: 13px;
+   font-weight: 500;
+   color: rgb(78, 78, 78);
+}
+.sidebar__option-Active{
+    background-color: #e8f0fe;
+}
+.sidebar__option-Active span{
+    color: #1367d2 !important;
+    font-weight: bold;
+}
+.progress__bar{
+    padding: 0px 20px ;
+}
+.progress__bar span{
+    display: block;
+    font-size: 13px;
+    color: #333;
+}
+.modal_pop{
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    margin: 0px auto;
+    transform: translateY(-50%);
+
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+.modalHeading{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    
+}
+input.post_submit{
+    width: 100%;
+    background-color: #2381fa;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius:5px ;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+}
